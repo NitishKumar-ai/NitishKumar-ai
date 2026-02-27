@@ -1,101 +1,80 @@
-# <img src="https://readme-typing-svg.demolab.com?font=Righteous&size=35&duration=3000&pause=3000&multiline=true&width=600&height=100&lines=👋+Nitish+Kumar;Data+Science+|+ML+Engineer+|+AI+Builder" alt="Typing SVG" />
-
----
-
 <div align="center">
 
-### 🚀 **Transforming Data Into Intelligence**
-*Building ML solutions that actually matter • Based in Bangalore, India 🇮🇳*
+<!-- Animated Header - Mint Green Pulse -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ADEBB3&height=200&section=header&text=Hey%2C%20I'm%20Nitish%20Kumar%20👋&fontSize=42&fontColor=1A4A2E&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20Student%20%7C%20ML%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=58&descSize=18&descColor=4A7A55" width="100%"/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-StarkNitish-1A4A2E?style=for-the-badge&logo=github&logoColor=ADEBB3)](https://github.com/StarkNitish)
-[![Instagram](https://img.shields.io/badge/Instagram-nitish_stark-4A7A55?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/nitish_stark)
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-1A4A2E?style=for-the-badge&logo=youtube&logoColor=ADEBB3)](https://youtube.com/@nitishkumar)
+<!-- Typing Animation -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=4A7A55&center=true&vCenter=true&random=false&width=600&lines=Turning+Raw+Data+into+Real+Insights+%F0%9F%93%8A;Building+Models+that+Actually+Matter+%F0%9F%A4%96;One+Dataset+at+a+Time...+%F0%9F%9A%80;Fake+News+Detector+%7C+ML+Builder+%7C+Explorer" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<!-- Profile Views & Followers -->
+<img src="https://komarev.com/ghpvc/?username=NitishKumar-ai&style=for-the-badge&color=4A7A55&label=PROFILE+VIEWS" alt="Profile Views"/>
+&nbsp;
+<img src="https://img.shields.io/github/followers/NitishKumar-ai?style=for-the-badge&color=ADEBB3&labelColor=1A4A2E&label=FOLLOWERS" alt="Followers"/>
 
 </div>
 
 ---
 
-## 📊 **Quick Stats**
+## 🌿 The Story So Far...
 
-<div align="center">
+```python
+class NitishKumar:
+    def __init__(self):
+        self.name        = "Nitish Kumar"
+        self.alias       = "NitishKumar.ai"
+        self.location    = "Bangalore, India 🇮🇳"
+        self.role        = "Data Science Student"
+        self.passion     = ["Machine Learning", "NLP", "Data Storytelling"]
+        self.current     = "Building cool stuff with data 🔥"
+        self.ask_me_about = ["Python", "ML Models", "Data Analysis", "AI Projects"]
 
-| Metric | Value |
-|--------|-------|
-| **Projects Built** | 15+ Production |
-| **GitHub Followers** | 500+ |
-| **Data Processed** | 1M+ Records |
-| **ML Models Deployed** | 8+ Active |
-| **Profile Views** | ![Views](https://komarev.com/ghpvc/?username=StarkNitish&style=flat-square) |
+    def life_philosophy(self):
+        return "Data is the new oil — and I'm learning to refine it. ⚗️"
 
-</div>
+me = NitishKumar()
+print(me.life_philosophy())
+```
+
+> *"In God we trust. All others must bring data."* — W. Edwards Deming
 
 ---
 
-## 🎯 **Featured Projects**
+## 🧠 What I'm Up To
 
 <table>
 <tr>
 <td width="50%">
 
-### 🤖 **Fake News Detector**
-**NLP-Powered Misinformation Classifier**
+### 🔭 Currently Working On
+- 🤖 **Fake News Detector** — NLP-powered misinformation classifier
+- 📚 **Personal Learning Pro** — AI-assisted learning platform
+- 🔐 **PC App Lock** — Security utility app
 
-- 94% accuracy using Transformers
-- 10K+ news articles analyzed
-- Production deployment
-- Real-time inference API
-
-**Tech:** Python • TensorFlow • BERT • FastAPI
-
-[View Project →](https://github.com/StarkNitish/fakenews-detector)
-
-</td>
-<td width="50%">
-
-### 📚 **Learning Pro AI**
-**Adaptive Learning Platform**
-
-- 3,000+ active users
-- 150K+ interactions tracked
-- LLM-powered personalization
-- 92% user retention rate
-
-**Tech:** Python • LangChain • PostgreSQL • React
-
-[View Project →](https://github.com/StarkNitish/PersonalLearningPro)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🔐 **PC App Lock**
-**Advanced Security Utility**
-
-- Facial recognition unlock
-- 50K+ downloads
-- 4.8★ rating
-- Encryption support
-
-**Tech:** Python • OpenCV • PyQt • Cryptography
-
-[View Project →](https://github.com/StarkNitish/PC-APP-LOCK)
+### 🌱 Currently Learning
+- Deep Learning & Neural Networks
+- Advanced Feature Engineering
+- MLOps & Model Deployment
+- LLMs & Prompt Engineering
 
 </td>
 <td width="50%">
 
-### 📈 **Stock Price Predictor**
-**Time Series ML Engine**
+### ⚡ Fun Facts
+- 🎯 I believe every dataset has a story to tell
+- 🌙 Best ideas come after midnight debugging sessions
+- ☕ Coffee → Code → Commit → Repeat
+- 🎬 I have a YouTube channel where I share my journey
+- 📸 Catch my experiments on Instagram too!
 
-- LSTM neural networks
-- 85% directional accuracy
-- Real-time data pipeline
-- Multi-stock support
-
-**Tech:** Python • PyTorch • Redis • PostgreSQL
-
-[View Project →](https://github.com/StarkNitish/SEC)
+### 🎯 2026 Goals
+- [ ] Deploy 3 end-to-end ML projects
+- [ ] Contribute to open source DS libraries
+- [ ] Write technical blogs about my learnings
+- [ ] Get hands dirty with Kaggle competitions
 
 </td>
 </tr>
@@ -103,122 +82,109 @@
 
 ---
 
-## 🛠️ **Tech Stack**
+## 🛠️ My Tech Arsenal
 
 <div align="center">
 
-#### **Machine Learning & AI**
+### 🐍 Languages & Core
 ![Python](https://img.shields.io/badge/Python-1A4A2E?style=for-the-badge&logo=python&logoColor=ADEBB3)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-4A7A55?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-FF6D00?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit_learn-1A4A2E?style=for-the-badge&logo=scikit-learn&logoColor=ADEBB3)
-![Keras](https://img.shields.io/badge/Keras-1A4A2E?style=for-the-badge&logo=keras&logoColor=ADEBB3)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-4A7A55?style=for-the-badge&logo=huggingface&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-4A7A55?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-1A4A2E?style=for-the-badge&logo=postgresql&logoColor=ADEBB3)
 
-#### **Data Engineering**
+### 🤖 ML / AI Stack
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1A4A2E?style=for-the-badge&logo=scikit-learn&logoColor=ADEBB3)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-4A7A55?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-1A4A2E?style=for-the-badge&logo=keras&logoColor=ADEBB3)
+![PyTorch](https://img.shields.io/badge/PyTorch-4A7A55?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-1A4A2E?style=for-the-badge&logo=huggingface&logoColor=ADEBB3)
+
+### 📊 Data & Visualization
 ![Pandas](https://img.shields.io/badge/Pandas-1A4A2E?style=for-the-badge&logo=pandas&logoColor=ADEBB3)
 ![NumPy](https://img.shields.io/badge/NumPy-4A7A55?style=for-the-badge&logo=numpy&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-1A4A2E?style=for-the-badge&logo=postgresql&logoColor=ADEBB3)
-![Spark](https://img.shields.io/badge/Apache_Spark-4A7A55?style=for-the-badge&logo=apache-spark&logoColor=white)
-
-#### **Visualization & Tools**
+![Matplotlib](https://img.shields.io/badge/Matplotlib-1A4A2E?style=for-the-badge&logo=python&logoColor=ADEBB3)
+![Seaborn](https://img.shields.io/badge/Seaborn-4A7A55?style=for-the-badge&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-1A4A2E?style=for-the-badge&logo=plotly&logoColor=ADEBB3)
+
+### 🧰 Tools & Platforms
 ![Jupyter](https://img.shields.io/badge/Jupyter-4A7A55?style=for-the-badge&logo=jupyter&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1A4A2E?style=for-the-badge&logo=visual-studio-code&logoColor=ADEBB3)
 ![Git](https://img.shields.io/badge/Git-4A7A55?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-1A4A2E?style=for-the-badge&logo=github&logoColor=ADEBB3)
+![Google Colab](https://img.shields.io/badge/Colab-4A7A55?style=for-the-badge&logo=google-colab&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-1A4A2E?style=for-the-badge&logo=kaggle&logoColor=ADEBB3)
 
 </div>
 
----
 
-## 📈 **GitHub Analytics**
 
-<div align="center">
+## 📈 Data Science Skills Radar
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=StarkNitish&show_icons=true&theme=dark&bg_color=0d1117&text_color=c9cacc&icon_color=4A7A55&title_color=ADEBB3&border_color=30363d&hide_border=true&count_private=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=StarkNitish&layout=compact&theme=dark&bg_color=0d1117&text_color=c9cacc&title_color=ADEBB3&border_color=30363d&hide_border=true)
-
-</div>
-
-<div align="center">
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=StarkNitish&bg_color=0d1117&color=ADEBB3&line=4A7A55&point=1A4A2E&area=true&hide_border=true)
-
-</div>
-
----
-
-## 🎓 **Current Learning Path**
-
-<table>
-<tr>
-<td>
-
-### 🔭 **In Progress**
-- ✅ Advanced Deep Learning (CNNs, RNNs, Transformers)
-- ✅ MLOps & Model Deployment
-- ✅ LLMs & Prompt Engineering  
-- 🔄 Reinforcement Learning
-- 🔄 Graph Neural Networks
-
-</td>
-<td>
-
-### 🎯 **2026 Goals**
-- [ ] Deploy 5 production ML systems
-- [ ] Contribute to ML research papers
-- [ ] Kaggle Competitions Top 5%
-- [ ] Build open-source ML library
-- [ ] 1000+ GitHub followers
-- [ ] Technical blog with 100 posts
-
-</td>
-</tr>
-</table>
-
----
-
-## 💡 **My Approach**
-
-> **"Data tells stories. I help translate them into action."**
-
-#### **What I Focus On:**
-- 🎯 **Real-World Impact** — Building solutions that solve actual problems
-- 📊 **Data-Driven Decisions** — Every model backed by thorough analysis
-- 🚀 **Production Readiness** — Not just notebooks, but deployable systems
-- 🔬 **Continuous Learning** — Staying ahead of ML trends and innovations
-- 🤝 **Collaboration** — Contributing to open-source and community projects
-
----
-
-## 🌟 **Fun Facts**
-
-```python
-while True:
-    coffee() 
-    code() 
-    debug() 
-    commit() 
-    repeat()  # ☕ → 💻 → 🐛 → 🚀
+```
+Machine Learning      ████████████████░░░░  80%
+Python / Pandas       ███████████████████░  90%
+Data Visualization    ████████████████░░░░  80%
+NLP / Text Analysis   ██████████████░░░░░░  70%
+Deep Learning         ████████████░░░░░░░░  60%
+SQL & Databases       ████████████████░░░░  78%
+Feature Engineering   █████████████░░░░░░░  65%
+MLOps / Deployment    ████████░░░░░░░░░░░░  40%  ← leveling up! 🚀
 ```
 
-- 🎬 I share ML journey on [YouTube](https://youtube.com/@nitishkumar)
-- 📸 Daily coding updates on [Instagram](https://instagram.com/nitish_stark)
-- 🌙 Best ideas happen at 2 AM while debugging
-- 🎯 Believer in "data doesn't lie, interpretations do"
-- 🚀 Currently: *Building the future of AI, one model at a time*
-
 ---
 
-## 📬 **Let's Connect**
+## 📊 GitHub Stats
 
 <div align="center">
 
-### Open to:
-✨ Collaborations • 🤝 Mentorship • 💼 Opportunities • 💬 Discussions
 
-**[📧 Email](mailto:contact@nitish.ai) • [🐙 GitHub](https://github.com/StarkNitish) • [📹 YouTube](https://youtube.com/@nitishkumar) • [📷 Instagram](https://instagram.com/nitish_stark)**
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Nitishkumar-ai&background=ADEBB3&border=4A7A55&ring=1A4A2E&fire=4A7A55&currStreakLabel=1A4A2E&sideLabels=1A4A2E&dates=4A7A55&border_radius=10" height="180"/>
+
+</div>
+
+
+## 📅 Contribution Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NitishKumar-ai&bg_color=ADEBB3&color=1A4A2E&line=4A7A55&point=1A4A2E&area=true&area_color=8DB896&hide_border=true" width="100%"/>
+</div>
+
+---
+
+## 🗺️ My Data Science Journey Roadmap
+
+```mermaid
+journey
+    title Nitish's Data Science Adventure 🌿
+    section Foundation
+      Learn Python: 9: Me
+      Master Pandas & NumPy: 8: Me
+      Statistics & Math: 7: Me
+    section Building Up
+      Machine Learning: 8: Me
+      NLP Projects: 7: Me
+      Data Visualization: 8: Me
+    section Current
+      Deep Learning: 6: Me
+      Real Projects (Fake News Detector): 9: Me
+      Open Source Contributions: 5: Me
+    section Next Stop
+      MLOps & Deployment: 3: Me
+      Kaggle Competitions: 4: Me
+      Research Papers: 2: Me
+```
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-NitishKumar.ai-1A4A2E?style=for-the-badge&logo=github&logoColor=ADEBB3)](https://github.com/StarkNitish)
+[![Instagram](https://img.shields.io/badge/Instagram-nitish__stark-4A7A55?style=for-the-badge&logo=instagram&logoColor=ADEBB3)](https://instagram.com/nitish_stark/)
+[![YouTube](https://img.shields.io/badge/YouTube-Channel-1A4A2E?style=for-the-badge&logo=youtube&logoColor=ADEBB3)](https://youtube.com/channel/UCd93OmRn1xVRGCx3_qo1u4Q)
 
 </div>
 
@@ -226,11 +192,15 @@ while True:
 
 <div align="center">
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&bg_color=0d1117&text_color=ADEBB3&border_color=4A7A55)
+### 💬 Random Dev Quote
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default)
 
 ---
 
-**Made with 💚 & ☕ by Nitish Kumar**  
-*© 2026 — Turning Raw Data Into Real Insights*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ADEBB3&height=100&section=footer&animation=fadeIn&fontColor=1A4A2E" width="100%"/>
+
+**⭐ Star my repos if you find them useful! Let's grow together. 🌱**
+
+*Made with 💚 and a lot of ☕ by Nitish Kumar © 2026*
 
 </div>
