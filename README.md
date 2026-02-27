@@ -161,9 +161,7 @@ MLOps / Deployment    ████████░░░░░░░░░░░�
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NitishKumar-ai&show_icons=true&theme=tokyonight&border_color=00D4FF&border_radius=10&include_all_commits=true&count_private=true&hide_border=false" height="180"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NitishKumar-ai&layout=compact&theme=tokyonight&border_color=00D4FF&border_radius=10&langs_count=8" height="180"/>
+
 
 <br/>
 
@@ -171,15 +169,8 @@ MLOps / Deployment    ████████░░░░░░░░░░░�
 
 </div>
 
----
 
-## 🏆 Achievements & Trophies
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=NitishKumar-ai&theme=tokyonight&no-frame=true&no-bg=false&row=1&column=6" />
-</div>
-
----
 
 ## 📅 Contribution Graph
 
