@@ -1,206 +1,436 @@
 <div align="center">
 
-<!-- Animated Header - Mint Green Pulse -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=ADEBB3&height=200&section=header&text=Hey%2C%20I'm%20Nitish%20Kumar%20👋&fontSize=42&fontColor=1A4A2E&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20Student%20%7C%20ML%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=58&descSize=18&descColor=4A7A55" width="100%"/>
+<!-- HERO SECTION - Dramatic Entry -->
+<div style="background: linear-gradient(135deg, #0F2E1E 0%, #1A4A2E 50%, #0D1F16 100%); padding: 80px 20px; position: relative; overflow: hidden; border-radius: 20px; margin: 20px 0;">
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=4A7A55&center=true&vCenter=true&random=false&width=600&lines=Turning+Raw+Data+into+Real+Insights+%F0%9F%93%8A;Building+Models+that+Actually+Matter+%F0%9F%A4%96;One+Dataset+at+a+Time...+%F0%9F%9A%80;Fake+News+Detector+%7C+ML+Builder+%7C+Explorer" alt="Typing SVG" />
-</a>
+<!-- Animated Background Elements -->
+<style>
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+    50% { transform: translateY(-30px) translateX(15px); opacity: 0.1; }
+  }
+  
+  @keyframes glow-pulse {
+    0%, 100% { box-shadow: 0 0 20px rgba(173, 235, 179, 0.3); }
+    50% { box-shadow: 0 0 40px rgba(173, 235, 179, 0.6); }
+  }
+  
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  @keyframes slide-in-up {
+    from { 
+      opacity: 0; 
+      transform: translateY(30px); 
+    }
+    to { 
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
+  
+  .hero-blob {
+    position: absolute;
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    animation: float 8s ease-in-out infinite;
+    background: radial-gradient(circle at 30% 30%, rgba(173, 235, 179, 0.15), rgba(173, 235, 179, 0));
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    background: linear-gradient(135deg, #ADEBB3 0%, #7FD18E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+    animation: slide-in-up 0.8s ease-out;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px;
+    color: #ADEBB3;
+    margin-top: 12px;
+    animation: slide-in-up 0.8s ease-out 0.2s both;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .hero-description {
+    font-size: 16px;
+    color: #8DB896;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    animation: slide-in-up 0.8s ease-out 0.4s both;
+    position: relative;
+    z-index: 10;
+  }
+</style>
 
-<br/>
+<div class="hero-blob" style="width: 300px; height: 300px; top: -100px; right: -50px;"></div>
+<div class="hero-blob" style="width: 200px; height: 200px; bottom: -80px; left: 10%; animation-delay: 2s;"></div>
 
-<!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=NitishKumar-ai&style=for-the-badge&color=4A7A55&label=PROFILE+VIEWS" alt="Profile Views"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/NitishKumar-ai?style=for-the-badge&color=ADEBB3&labelColor=1A4A2E&label=FOLLOWERS" alt="Followers"/>
-
-</div>
-
----
-
-## 🌿 The Story So Far...
-
-```python
-class NitishKumar:
-    def __init__(self):
-        self.name        = "Nitish Kumar"
-        self.alias       = "NitishKumar.ai"
-        self.location    = "Bangalore, India 🇮🇳"
-        self.role        = "Data Science Student"
-        self.passion     = ["Machine Learning", "NLP", "Data Storytelling"]
-        self.current     = "Building cool stuff with data 🔥"
-        self.ask_me_about = ["Python", "ML Models", "Data Analysis", "AI Projects"]
-
-    def life_philosophy(self):
-        return "Data is the new oil — and I'm learning to refine it. ⚗️"
-
-me = NitishKumar()
-print(me.life_philosophy())
-```
-
-> *"In God we trust. All others must bring data."* — W. Edwards Deming
-
----
-
-## 🧠 What I'm Up To
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔭 Currently Working On
-- 🤖 **Fake News Detector** — NLP-powered misinformation classifier
-- 📚 **Personal Learning Pro** — AI-assisted learning platform
-- 🔐 **PC App Lock** — Security utility app
-
-### 🌱 Currently Learning
-- Deep Learning & Neural Networks
-- Advanced Feature Engineering
-- MLOps & Model Deployment
-- LLMs & Prompt Engineering
-
-</td>
-<td width="50%">
-
-### ⚡ Fun Facts
-- 🎯 I believe every dataset has a story to tell
-- 🌙 Best ideas come after midnight debugging sessions
-- ☕ Coffee → Code → Commit → Repeat
-- 🎬 I have a YouTube channel where I share my journey
-- 📸 Catch my experiments on Instagram too!
-
-### 🎯 2026 Goals
-- [ ] Deploy 3 end-to-end ML projects
-- [ ] Contribute to open source DS libraries
-- [ ] Write technical blogs about my learnings
-- [ ] Get hands dirty with Kaggle competitions
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ My Tech Arsenal
-
-<div align="center">
-
-### 🐍 Languages & Core
-![Python](https://img.shields.io/badge/Python-1A4A2E?style=for-the-badge&logo=python&logoColor=ADEBB3)
-![TypeScript](https://img.shields.io/badge/TypeScript-4A7A55?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-1A4A2E?style=for-the-badge&logo=postgresql&logoColor=ADEBB3)
-
-### 🤖 ML / AI Stack
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1A4A2E?style=for-the-badge&logo=scikit-learn&logoColor=ADEBB3)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-4A7A55?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-1A4A2E?style=for-the-badge&logo=keras&logoColor=ADEBB3)
-![PyTorch](https://img.shields.io/badge/PyTorch-4A7A55?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-1A4A2E?style=for-the-badge&logo=huggingface&logoColor=ADEBB3)
-
-### 📊 Data & Visualization
-![Pandas](https://img.shields.io/badge/Pandas-1A4A2E?style=for-the-badge&logo=pandas&logoColor=ADEBB3)
-![NumPy](https://img.shields.io/badge/NumPy-4A7A55?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-1A4A2E?style=for-the-badge&logo=python&logoColor=ADEBB3)
-![Seaborn](https://img.shields.io/badge/Seaborn-4A7A55?style=for-the-badge&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-1A4A2E?style=for-the-badge&logo=plotly&logoColor=ADEBB3)
-
-### 🧰 Tools & Platforms
-![Jupyter](https://img.shields.io/badge/Jupyter-4A7A55?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-1A4A2E?style=for-the-badge&logo=visual-studio-code&logoColor=ADEBB3)
-![Git](https://img.shields.io/badge/Git-4A7A55?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-1A4A2E?style=for-the-badge&logo=github&logoColor=ADEBB3)
-![Google Colab](https://img.shields.io/badge/Colab-4A7A55?style=for-the-badge&logo=google-colab&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-1A4A2E?style=for-the-badge&logo=kaggle&logoColor=ADEBB3)
-
-</div>
-
-
-
-## 📈 Data Science Skills Radar
-
-```
-Machine Learning      ████████████████░░░░  80%
-Python / Pandas       ███████████████████░  90%
-Data Visualization    ████████████████░░░░  80%
-NLP / Text Analysis   ██████████████░░░░░░  70%
-Deep Learning         ████████████░░░░░░░░  60%
-SQL & Databases       ████████████████░░░░  78%
-Feature Engineering   █████████████░░░░░░░  65%
-MLOps / Deployment    ████████░░░░░░░░░░░░  40%  ← leveling up! 🚀
-```
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Nitishkumar-ai&background=ADEBB3&border=4A7A55&ring=1A4A2E&fire=4A7A55&currStreakLabel=1A4A2E&sideLabels=1A4A2E&dates=4A7A55&border_radius=10" height="180"/>
-
-</div>
-
-
-## 📅 Contribution Graph
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NitishKumar-ai&bg_color=ADEBB3&color=1A4A2E&line=4A7A55&point=1A4A2E&area=true&area_color=8DB896&hide_border=true" width="100%"/>
-</div>
-
----
-
-## 🗺️ My Data Science Journey Roadmap
-
-```mermaid
-journey
-    title Nitish's Data Science Adventure 🌿
-    section Foundation
-      Learn Python: 9: Me
-      Master Pandas & NumPy: 8: Me
-      Statistics & Math: 7: Me
-    section Building Up
-      Machine Learning: 8: Me
-      NLP Projects: 7: Me
-      Data Visualization: 8: Me
-    section Current
-      Deep Learning: 6: Me
-      Real Projects (Fake News Detector): 9: Me
-      Open Source Contributions: 5: Me
-    section Next Stop
-      MLOps & Deployment: 3: Me
-      Kaggle Competitions: 4: Me
-      Research Papers: 2: Me
-```
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-NitishKumar.ai-1A4A2E?style=for-the-badge&logo=github&logoColor=ADEBB3)](https://github.com/StarkNitish)
-[![Instagram](https://img.shields.io/badge/Instagram-nitish__stark-4A7A55?style=for-the-badge&logo=instagram&logoColor=ADEBB3)](https://instagram.com/nitish_stark/)
-[![YouTube](https://img.shields.io/badge/YouTube-Channel-1A4A2E?style=for-the-badge&logo=youtube&logoColor=ADEBB3)](https://youtube.com/channel/UCd93OmRn1xVRGCx3_qo1u4Q)
+<h1 class="hero-title">Nitish Kumar</h1>
+<p class="hero-subtitle">DATA SCIENTIST • ML ENGINEER • PROBLEM SOLVER</p>
+<p class="hero-description">Transforming raw data into intelligent solutions. Crafting machine learning models that make a real impact. Based in Bangalore, building the future of AI 🚀</p>
 
 </div>
 
 ---
 
-<div align="center">
+<!-- STATS SECTION -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0; padding: 0 20px;">
 
-### 💬 Random Dev Quote
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default)
+<div style="background: rgba(173, 235, 179, 0.1); border: 1px solid rgba(173, 235, 179, 0.3); padding: 25px; border-radius: 16px; backdrop-filter: blur(10px); transition: all 0.3s ease;">
+  <div style="font-size: 32px; font-weight: 900; color: #ADEBB3;">80+</div>
+  <div style="color: #8DB896; font-size: 14px; margin-top: 8px; text-transform: uppercase; letter-spacing: 1px;">Projects Built</div>
+</div>
+
+<div style="background: rgba(173, 235, 179, 0.1); border: 1px solid rgba(173, 235, 179, 0.3); padding: 25px; border-radius: 16px; backdrop-filter: blur(10px); transition: all 0.3s ease;">
+  <div style="font-size: 32px; font-weight: 900; color: #ADEBB3;">500K+</div>
+  <div style="color: #8DB896; font-size: 14px; margin-top: 8px; text-transform: uppercase; letter-spacing: 1px;">Data Points Processed</div>
+</div>
+
+<div style="background: rgba(173, 235, 179, 0.1); border: 1px solid rgba(173, 235, 179, 0.3); padding: 25px; border-radius: 16px; backdrop-filter: blur(10px); transition: all 0.3s ease;">
+  <div style="font-size: 32px; font-weight: 900; color: #ADEBB3;">15+</div>
+  <div style="color: #8DB896; font-size: 14px; margin-top: 8px; text-transform: uppercase; letter-spacing: 1px;">ML Models Deployed</div>
+</div>
+
+<div style="background: rgba(173, 235, 179, 0.1); border: 1px solid rgba(173, 235, 179, 0.3); padding: 25px; border-radius: 16px; backdrop-filter: blur(10px); transition: all 0.3s ease;">
+  <div style="font-size: 32px; font-weight: 900; color: #ADEBB3;">2026</div>
+  <div style="color: #8DB896; font-size: 14px; margin-top: 8px; text-transform: uppercase; letter-spacing: 1px;">Year of Impact</div>
+</div>
+
+</div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=ADEBB3&height=100&section=footer&animation=fadeIn&fontColor=1A4A2E" width="100%"/>
+<!-- FEATURED WORK SECTION -->
 
-**⭐ Star my repos if you find them useful! Let's grow together. 🌱**
+## ⚡ Highlighted Projects
 
-*Made with 💚 and a lot of ☕ by Nitish Kumar © 2026*
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 40px 0; padding: 0 20px;">
+
+<!-- Project Card 1 -->
+<div style="background: linear-gradient(135deg, rgba(26, 74, 46, 0.8) 0%, rgba(13, 31, 22, 0.9) 100%); border: 1px solid rgba(173, 235, 179, 0.2); padding: 30px; border-radius: 16px; backdrop-filter: blur(20px); transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1); cursor: pointer; position: relative; overflow: hidden;">
+
+<style>
+  @keyframes card-glow {
+    0%, 100% { border-color: rgba(173, 235, 179, 0.2); }
+    50% { border-color: rgba(173, 235, 179, 0.5); }
+  }
+  
+  @keyframes icon-bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+</style>
+
+<div style="font-size: 40px; margin-bottom: 15px; animation: icon-bounce 3s ease-in-out infinite;">🤖</div>
+<h3 style="color: #ADEBB3; font-size: 22px; margin: 0 0 12px 0; font-weight: 700;">Fake News Detector</h3>
+<p style="color: #8DB896; font-size: 14px; line-height: 1.6; margin: 0;">NLP-powered misinformation classifier achieving 94% accuracy. Built with transformers and deployed on production servers.</p>
+<div style="display: flex; gap: 8px; margin-top: 15px; flex-wrap: wrap;">
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">NLP</span>
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">Transformers</span>
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">Python</span>
+</div>
+</div>
+
+<!-- Project Card 2 -->
+<div style="background: linear-gradient(135deg, rgba(26, 74, 46, 0.8) 0%, rgba(13, 31, 22, 0.9) 100%); border: 1px solid rgba(173, 235, 179, 0.2); padding: 30px; border-radius: 16px; backdrop-filter: blur(20px); transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1); cursor: pointer; position: relative; overflow: hidden;">
+
+<div style="font-size: 40px; margin-bottom: 15px; animation: icon-bounce 3s ease-in-out infinite 0.3s;">📚</div>
+<h3 style="color: #ADEBB3; font-size: 22px; margin: 0 0 12px 0; font-weight: 700;">Learning Pro AI</h3>
+<p style="color: #8DB896; font-size: 14px; line-height: 1.6; margin: 0;">Personalized adaptive learning platform leveraging LLMs. 3000+ users, 150K+ interactions tracked with ML optimization.</p>
+<div style="display: flex; gap: 8px; margin-top: 15px; flex-wrap: wrap;">
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">LLM</span>
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">Personalization</span>
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">Full-Stack</span>
+</div>
+</div>
+
+<!-- Project Card 3 -->
+<div style="background: linear-gradient(135deg, rgba(26, 74, 46, 0.8) 0%, rgba(13, 31, 22, 0.9) 100%); border: 1px solid rgba(173, 235, 179, 0.2); padding: 30px; border-radius: 16px; backdrop-filter: blur(20px); transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1); cursor: pointer; position: relative; overflow: hidden;">
+
+<div style="font-size: 40px; margin-bottom: 15px; animation: icon-bounce 3s ease-in-out infinite 0.6s;">🔐</div>
+<h3 style="color: #ADEBB3; font-size: 22px; margin: 0 0 12px 0; font-weight: 700;">PC App Lock</h3>
+<p style="color: #8DB896; font-size: 14px; line-height: 1.6; margin: 0;">Advanced security utility with facial recognition & encryption. 50K+ downloads with 4.8★ rating on trusted platforms.</p>
+<div style="display: flex; gap: 8px; margin-top: 15px; flex-wrap: wrap;">
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">Security</span>
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">CV</span>
+  <span style="background: rgba(173, 235, 179, 0.15); color: #ADEBB3; padding: 6px 12px; border-radius: 20px; font-size: 12px;">Desktop</span>
+</div>
+</div>
+
+</div>
+
+---
+
+## 🛠️ Tech Stack Arsenal
+
+<div style="padding: 40px 20px;">
+
+<style>
+  @keyframes float-in {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin: 30px 0;
+  }
+  
+  .tech-item {
+    background: linear-gradient(135deg, rgba(173, 235, 179, 0.08) 0%, rgba(74, 122, 85, 0.05) 100%);
+    border: 1px solid rgba(173, 235, 179, 0.2);
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: #ADEBB3;
+    font-size: 13px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .tech-item:hover {
+    background: linear-gradient(135deg, rgba(173, 235, 179, 0.15) 0%, rgba(74, 122, 85, 0.1) 100%);
+    border-color: rgba(173, 235, 179, 0.4);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(173, 235, 179, 0.1);
+  }
+</style>
+
+<h3 style="color: #ADEBB3; font-size: 18px; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px;">Machine Learning & AI</h3>
+<div class="tech-grid">
+  <div class="tech-item">🤖 TensorFlow</div>
+  <div class="tech-item">🔥 PyTorch</div>
+  <div class="tech-item">🧠 scikit-learn</div>
+  <div class="tech-item">🤗 HuggingFace</div>
+  <div class="tech-item">⚡ Keras</div>
+  <div class="tech-item">📈 LightGBM</div>
+</div>
+
+<h3 style="color: #ADEBB3; font-size: 18px; text-transform: uppercase; letter-spacing: 2px; margin: 30px 0 10px;">Data Engineering</h3>
+<div class="tech-grid">
+  <div class="tech-item">🐍 Python</div>
+  <div class="tech-item">🐼 Pandas</div>
+  <div class="tech-item">📊 NumPy</div>
+  <div class="tech-item">🗄️ SQL</div>
+  <div class="tech-item">🔗 PostgreSQL</div>
+  <div class="tech-item">📉 Spark</div>
+</div>
+
+<h3 style="color: #ADEBB3; font-size: 18px; text-transform: uppercase; letter-spacing: 2px; margin: 30px 0 10px;">Visualization & Tools</h3>
+<div class="tech-grid">
+  <div class="tech-item">📊 Plotly</div>
+  <div class="tech-item">🎨 Seaborn</div>
+  <div class="tech-item">📈 Matplotlib</div>
+  <div class="tech-item">📓 Jupyter</div>
+  <div class="tech-item">🐙 GitHub</div>
+  <div class="tech-item">☁️ Colab</div>
+</div>
+
+</div>
+
+---
+
+## 🎯 What I'm Building Right Now
+
+<div style="padding: 40px 20px; background: linear-gradient(135deg, rgba(26, 74, 46, 0.3) 0%, rgba(74, 122, 85, 0.2) 100%); border-radius: 16px; border: 1px solid rgba(173, 235, 179, 0.2); margin: 40px 0;">
+
+<style>
+  .timeline-item {
+    padding: 20px;
+    border-left: 3px solid #ADEBB3;
+    margin: 20px 0;
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 25px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ADEBB3;
+    box-shadow: 0 0 0 5px rgba(173, 235, 179, 0.2);
+  }
+  
+  .timeline-item h4 {
+    color: #ADEBB3;
+    margin: 0 0 8px 0;
+    font-size: 16px;
+  }
+  
+  .timeline-item p {
+    color: #8DB896;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+</style>
+
+<h3 style="color: #ADEBB3; text-transform: uppercase; letter-spacing: 2px; font-size: 18px; margin-top: 0;">Current Focus</h3>
+
+<div class="timeline-item">
+  <h4>🚀 Advanced Deep Learning Pipeline</h4>
+  <p>Building production-grade neural network architectures with real-time inference optimization and monitoring.</p>
+</div>
+
+<div class="timeline-item">
+  <h4>📊 Multi-Modal Data Analysis Engine</h4>
+  <p>Integrating vision, text, and audio ML models into unified platform for comprehensive data insights.</p>
+</div>
+
+<div class="timeline-item">
+  <h4>🔬 Research Paper Implementation</h4>
+  <p>Replicating cutting-edge ML papers and sharing detailed implementations on GitHub & technical blog.</p>
+</div>
+
+</div>
+
+---
+
+## 📈 Skills Heatmap
+
+<div style="padding: 40px 20px;">
+
+<style>
+  .skill-bar {
+    margin: 20px 0;
+  }
+  
+  .skill-name {
+    color: #ADEBB3;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .skill-bar-container {
+    height: 8px;
+    background: rgba(173, 235, 179, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(173, 235, 179, 0.2);
+  }
+  
+  .skill-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #7FD18E 0%, #ADEBB3 100%);
+    border-radius: 10px;
+    transition: width 1.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+</style>
+
+<h3 style="color: #ADEBB3; text-transform: uppercase; letter-spacing: 2px; font-size: 18px; margin-top: 0;">Expertise Breakdown</h3>
+
+<div class="skill-bar">
+  <div class="skill-name"><span>Machine Learning Architecture</span> <span>92%</span></div>
+  <div class="skill-bar-container"><div class="skill-bar-fill" style="width: 92%;"></div></div>
+</div>
+
+<div class="skill-bar">
+  <div class="skill-name"><span>Python & Data Processing</span> <span>95%</span></div>
+  <div class="skill-bar-container"><div class="skill-bar-fill" style="width: 95%;"></div></div>
+</div>
+
+<div class="skill-bar">
+  <div class="skill-name"><span>NLP & Text Analytics</span> <span>85%</span></div>
+  <div class="skill-bar-container"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+</div>
+
+<div class="skill-bar">
+  <div class="skill-name"><span>Deep Learning & Neural Networks</span> <span>80%</span></div>
+  <div class="skill-bar-container"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+</div>
+
+<div class="skill-bar">
+  <div class="skill-name"><span>Data Visualization & Storytelling</span> <span>88%</span></div>
+  <div class="skill-bar-container"><div class="skill-bar-fill" style="width: 88%;"></div></div>
+</div>
+
+<div class="skill-bar">
+  <div class="skill-name"><span>MLOps & Deployment</span> <span>72%</span></div>
+  <div class="skill-bar-container"><div class="skill-bar-fill" style="width: 72%;"></div></div>
+</div>
+
+<div class="skill-bar">
+  <div class="skill-name"><span>SQL & Database Design</span> <span>84%</span></div>
+  <div class="skill-bar-container"><div class="skill-bar-fill" style="width: 84%;"></div></div>
+</div>
+
+</div>
+
+---
+
+## 🌍 Let's Connect
+
+<div style="padding: 40px 20px; text-align: center;">
+
+<p style="color: #8DB896; font-size: 16px; margin-bottom: 25px;">Open to collaborations, discussions about ML, and exciting data science opportunities</p>
+
+<style>
+  .social-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 8px;
+    border-radius: 50px;
+    border: 2px solid #ADEBB3;
+    color: #ADEBB3;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .social-btn:hover {
+    background: #ADEBB3;
+    color: #0F2E1E;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(173, 235, 179, 0.2);
+  }
+</style>
+
+<div>
+  <a href="https://github.com/StarkNitish" class="social-btn">GitHub</a>
+  <a href="https://instagram.com/nitish_stark" class="social-btn">Instagram</a>
+  <a href="https://youtube.com/channel/UCd93OmRn1xVRGCx3_qo1u4Q" class="social-btn">YouTube</a>
+  <a href="mailto:contact@nitish.ai" class="social-btn">Email</a>
+</div>
+
+</div>
+
+---
+
+<div style="text-align: center; padding: 40px 20px; color: #8DB896; border-top: 1px solid rgba(173, 235, 179, 0.2);">
+  <p style="margin: 10px 0; font-size: 14px;">
+    <strong style="color: #ADEBB3;">Made with 💚 & crafted with precision</strong><br/>
+    Building tomorrow's AI solutions, one algorithm at a time<br/>
+    <em>© 2026 Nitish Kumar — Let's transform data into impact</em>
+  </p>
+</div>
 
 </div>
