@@ -1,31 +1,31 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%2C%20I'm%20Nitish%20Kumar%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Science%20Student%20%7C%20ML%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=55&descSize=18" width="100%"/>
+<!-- Animated Header - Mint Green Pulse -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ADEBB3&height=200&section=header&text=Hey%2C%20I'm%20Nitish%20Kumar%20👋&fontSize=42&fontColor=1A4A2E&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20Student%20%7C%20ML%20Enthusiast%20%7C%20Problem%20Solver&descAlignY=58&descSize=18&descColor=4A7A55" width="100%"/>
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=600&lines=Turning+Raw+Data+into+Real+Insights+%F0%9F%93%8A;Building+Models+that+Actually+Matter+%F0%9F%A4%96;One+Dataset+at+a+Time...+%F0%9F%9A%80;Fake+News+Detector+%7C+ML+Builder+%7C+Explorer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=4A7A55&center=true&vCenter=true&random=false&width=600&lines=Turning+Raw+Data+into+Real+Insights+%F0%9F%93%8A;Building+Models+that+Actually+Matter+%F0%9F%A4%96;One+Dataset+at+a+Time...+%F0%9F%9A%80;Fake+News+Detector+%7C+ML+Builder+%7C+Explorer" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=NitishKumar-ai&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=StarkNitish&style=for-the-badge&color=4A7A55&label=PROFILE+VIEWS" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/NitishKumar-ai?style=for-the-badge&color=00D4FF&label=FOLLOWERS" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/StarkNitish?style=for-the-badge&color=ADEBB3&labelColor=1A4A2E&label=FOLLOWERS" alt="Followers"/>
 
 </div>
 
 ---
 
-## 🌌 The Story So Far...
+## 🌿 The Story So Far...
 
 ```python
 class NitishKumar:
     def __init__(self):
         self.name        = "Nitish Kumar"
-        self.alias       = "NitishKumar-ai"
+        self.alias       = "NitishKumar.ai"
         self.location    = "Bangalore, India 🇮🇳"
         self.role        = "Data Science Student"
         self.passion     = ["Machine Learning", "NLP", "Data Storytelling"]
@@ -66,7 +66,7 @@ print(me.life_philosophy())
 ### ⚡ Fun Facts
 - 🎯 I believe every dataset has a story to tell
 - 🌙 Best ideas come after midnight debugging sessions
-- ☕ Filter_Coffee → Code → Commit → Repeat
+- ☕ Coffee → Code → Commit → Repeat
 - 🎬 I have a YouTube channel where I share my journey
 - 📸 Catch my experiments on Instagram too!
 
@@ -87,60 +87,35 @@ print(me.life_philosophy())
 <div align="center">
 
 ### 🐍 Languages & Core
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
+![Python](https://img.shields.io/badge/Python-1A4A2E?style=for-the-badge&logo=python&logoColor=ADEBB3)
+![TypeScript](https://img.shields.io/badge/TypeScript-4A7A55?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-1A4A2E?style=for-the-badge&logo=postgresql&logoColor=ADEBB3)
 
 ### 🤖 ML / AI Stack
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1A4A2E?style=for-the-badge&logo=scikit-learn&logoColor=ADEBB3)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-4A7A55?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-1A4A2E?style=for-the-badge&logo=keras&logoColor=ADEBB3)
+![PyTorch](https://img.shields.io/badge/PyTorch-4A7A55?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-1A4A2E?style=for-the-badge&logo=huggingface&logoColor=ADEBB3)
 
 ### 📊 Data & Visualization
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3498DB?style=for-the-badge&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-1A4A2E?style=for-the-badge&logo=pandas&logoColor=ADEBB3)
+![NumPy](https://img.shields.io/badge/NumPy-4A7A55?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-1A4A2E?style=for-the-badge&logo=python&logoColor=ADEBB3)
+![Seaborn](https://img.shields.io/badge/Seaborn-4A7A55?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-1A4A2E?style=for-the-badge&logo=plotly&logoColor=ADEBB3)
 
 ### 🧰 Tools & Platforms
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=black)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-4A7A55?style=for-the-badge&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-1A4A2E?style=for-the-badge&logo=visual-studio-code&logoColor=ADEBB3)
+![Git](https://img.shields.io/badge/Git-4A7A55?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-1A4A2E?style=for-the-badge&logo=github&logoColor=ADEBB3)
+![Google Colab](https://img.shields.io/badge/Colab-4A7A55?style=for-the-badge&logo=google-colab&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-1A4A2E?style=for-the-badge&logo=kaggle&logoColor=ADEBB3)
 
 </div>
 
----
 
-## 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/NitishKumar-ai/fakenews-detector">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NitishKumar-ai&repo=fakenews-detector&theme=tokyonight&border_color=00D4FF&border_radius=10" />
-</a>
-&nbsp;
-<a href="https://github.com/NitishKumar-ai/PersonalLearningPro">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NitishKumar-ai&repo=PersonalLearningPro&theme=tokyonight&border_color=00D4FF&border_radius=10" />
-</a>
-
-<a href="https://github.com/NitishKumar-ai/PC-APP-LOCK-">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NitishKumar-ai&repo=PC-APP-LOCK-&theme=tokyonight&border_color=00D4FF&border_radius=10" />
-</a>
-&nbsp;
-<a href="https://github.com/NitishKumar-ai/SEC">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NitishKumar-ai&repo=SEC&theme=tokyonight&border_color=00D4FF&border_radius=10" />
-</a>
-
-</div>
-
----
 
 ## 📈 Data Science Skills Radar
 
@@ -165,17 +140,15 @@ MLOps / Deployment    ████████░░░░░░░░░░░�
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NitishKumar-ai&theme=tokyonight&border=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF&border_radius=10" height="180"/>
+<img src="https://streak-stats.demolab.com?user=Nitishkumar-ai&background=ADEBB3&border=4A7A55&ring=1A4A2E&fire=4A7A55&currStreakLabel=1A4A2E&sideLabels=1A4A2E&dates=4A7A55&border_radius=10" height="180"/>
 
 </div>
-
-
 
 
 ## 📅 Contribution Graph
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NitishKumar-ai&theme=tokyo-night&bg_color=1a1b27&color=00D4FF&line=00D4FF&point=ff6b6b&area=true&area_color=00D4FF&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NitishKumar-ai&bg_color=ADEBB3&color=1A4A2E&line=4A7A55&point=1A4A2E&area=true&area_color=8DB896&hide_border=true" width="100%"/>
 </div>
 
 ---
@@ -184,7 +157,7 @@ MLOps / Deployment    ████████░░░░░░░░░░░�
 
 ```mermaid
 journey
-    title Nitish's Data Science Adventure
+    title Nitish's Data Science Adventure 🌿
     section Foundation
       Learn Python: 9: Me
       Master Pandas & NumPy: 8: Me
@@ -209,9 +182,9 @@ journey
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-NitishKumar.ai-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NitishKumar-ai)
-[![Instagram](https://img.shields.io/badge/Instagram-nitish__stark-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/nitish_stark/)
-[![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/channel/UCd93OmRn1xVRGCx3_qo1u4Q)
+[![GitHub](https://img.shields.io/badge/GitHub-NitishKumar.ai-1A4A2E?style=for-the-badge&logo=github&logoColor=ADEBB3)](https://github.com/StarkNitish)
+[![Instagram](https://img.shields.io/badge/Instagram-nitish__stark-4A7A55?style=for-the-badge&logo=instagram&logoColor=ADEBB3)](https://instagram.com/nitish_stark/)
+[![YouTube](https://img.shields.io/badge/YouTube-Channel-1A4A2E?style=for-the-badge&logo=youtube&logoColor=ADEBB3)](https://youtube.com/channel/UCd93OmRn1xVRGCx3_qo1u4Q)
 
 </div>
 
@@ -220,14 +193,14 @@ journey
 <div align="center">
 
 ### 💬 Random Dev Quote
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default)
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ADEBB3&height=100&section=footer&animation=fadeIn&fontColor=1A4A2E" width="100%"/>
 
-**⭐ Star my repos if you find them useful! Let's build something amazing together. 🚀**
+**⭐ Star my repos if you find them useful! Let's grow together. 🌱**
 
-
+*Made with 💚 and a lot of ☕ by Nitish Kumar © 2026*
 
 </div>
