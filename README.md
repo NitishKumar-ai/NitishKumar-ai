@@ -11,9 +11,9 @@
 <br/>
 
 <!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=StarkNitish&style=for-the-badge&color=4A7A55&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=NitishKumar-ai&style=for-the-badge&color=4A7A55&label=PROFILE+VIEWS" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/StarkNitish?style=for-the-badge&color=ADEBB3&labelColor=1A4A2E&label=FOLLOWERS" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/NitishKumar-ai?style=for-the-badge&color=ADEBB3&labelColor=1A4A2E&label=FOLLOWERS" alt="Followers"/>
 
 </div>
 
