@@ -140,18 +140,6 @@ MLOps / Deployment    ████████░░░░░░░░░░░�
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=Nitishkumar-ai&background=ADEBB3&border=4A7A55&ring=1A4A2E&fire=4A7A55&currStreakLabel=1A4A2E&sideLabels=1A4A2E&dates=4A7A55&border_radius=10" height="180"/>
-
-</div>
-
-
-## 📅 Contribution Graph
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NitishKumar-ai&bg_color=ADEBB3&color=1A4A2E&line=4A7A55&point=1A4A2E&area=true&area_color=8DB896&hide_border=true" width="100%"/>
-</div>
-
----
 
 ## 🗺️ My Data Science Journey Roadmap
 
