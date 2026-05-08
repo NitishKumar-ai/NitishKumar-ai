@@ -43,19 +43,19 @@ jobs:
               brief = p.get('brief', '')[:120]
 
               card = f'''<table>
-  <tr>
-    <td rowspan="2" width="120" valign="top">
-      <img src="{img}" width="120" style="border-radius:8px" alt="{title}"/>
-    </td>
-    <td valign="top">
-      <strong><a href="{url}">{title}</a></strong><br/>
-      <sub>📅 {date}</sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">{brief}</td>
-  </tr>
-</table>'''
+                <tr>
+                  <td rowspan="2" width="120" valign="top">
+                    <img src="{img}" width="120" style="border-radius:8px" alt="{title}"/>
+                  </td>
+                  <td valign="top">
+                    <strong><a href="{url}">{title}</a></strong><br/>
+                    <sub>📅 {date}</sub>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top">{brief}</td>
+                </tr>
+              </table>'''
               cards.append(card)
 
           content = '\n'.join(cards)
