@@ -15,8 +15,5 @@
 
 ### Check out my latest articles
 
-<!-- BLOG-POST-LIST:START -->
-- 🚀 [The Day I Realized AI Could Ship Code Faster Than We Could Secure It](https://hackathon-nitish.hashnode.dev/the-day-i-realized-ai-could-ship-code-faster-than-we-could-secure-it)
-- 🧠 [Network Nitish — Deep dives into tech & AI](https://network-nitish.hashnode.dev/)
-- ⚡ [More Articles on Hashnode](https://hashnode.com/@nitishkumar-ai)
-<!-- BLOG-POST-LIST:END -->
+<!-- HASHNODE_BLOG:START -->
+<!-- HASHNODE_BLOG:END -->

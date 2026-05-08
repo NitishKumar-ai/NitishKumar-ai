@@ -1,0 +1,24 @@
+name: "📚 Blog Updater"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Runs Every Day
+
+jobs:
+  update_blogs:
+    name: "Update Blogs"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥 Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "📚 Hashnode Blog Updater"
+        uses: "varunsridharan/action-hashnode-blog@main"
+        with:
+          USERNAME: 'nitishkumar-ai'
+          BLOG_URL: 'https://network-nitish.hashnode.dev'
+          COUNT: 5
+          STYLE: 'blog'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
