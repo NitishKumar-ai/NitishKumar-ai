@@ -3,22 +3,20 @@ name: "📚 Blog Updater"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Runs Every Day
+    - cron: '0 */6 * * *'  # Every 6 hours
 
 jobs:
   update_blogs:
     name: "Update Blogs"
     runs-on: ubuntu-latest
     steps:
-      - name: "📥 Fetching Repository Contents"
-        uses: actions/checkout@main
+      - name: "📥 Checkout"
+        uses: actions/checkout@v4
 
-      - name: "📚 Hashnode Blog Updater"
-        uses: "varunsridharan/action-hashnode-blog@main"
+      - name: "📚 Fetch Hashnode Blog Posts"
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
-          USERNAME: 'nitishkumar-ai'
-          BLOG_URL: 'https://network-nitish.hashnode.dev'
-          COUNT: 5
-          STYLE: 'blog'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          feed_list: "https://network-nitish.hashnode.dev/rss.xml,https://hackathon-nitish.hashnode.dev/rss.xml"
+          max_post_count: 5
+          template: '<table><tr><td>🔗 <strong><a href="$url">$title</a></strong><br/><sub>📅 $date</sub><br/><p>$description</p></td></tr></table>$newline'
+          comment_tag_name: "BLOG-POST-LIST"
