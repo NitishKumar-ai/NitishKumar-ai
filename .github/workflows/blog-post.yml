@@ -9,17 +9,79 @@ jobs:
   update_blogs:
     name: "Update Blogs"
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: "📥 Checkout"
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: "📚 Fetch Hashnode Blog Posts"
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://hashnode.com/feed/network-nitish,https://hashnode.com/feed/hackathon-nitish"
-          max_post_count: 5
-          template: '<table><tr><td>🔗 <strong><a href="$url">$title</a></strong><br/><sub>📅 $date</sub><br/><p>$description</p></td></tr></table>$newline'
-          comment_tag_name: "BLOG-POST-LIST"
-          user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-          accept_header: "application/rss+xml,application/xml;q=0.9,*/*;q=0.8"
-          retry_count: 3
+      - name: "📚 Fetch & Generate Blog Cards"
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, re
+
+          api = 'https://gql.hashnode.com/'
+          headers = {'Content-Type': 'application/json'}
+
+          def fetch_posts(host, limit=5):
+              q = json.dumps({'query': f'{{ publication(host: "{host}") {{ posts(first: {limit}) {{ edges {{ node {{ title url publishedAt brief coverImage {{ url }} }} }} }} }} }}'}).encode()
+              req = urllib.request.Request(api, data=q, headers=headers)
+              resp = json.loads(urllib.request.urlopen(req).read())
+              return [e['node'] for e in resp['data']['publication']['posts']['edges']]
+
+          posts = fetch_posts('network-nitish.hashnode.dev', 5)
+          hack = fetch_posts('hackathon-nitish.hashnode.dev', 2)
+          posts.extend(hack)
+          posts.sort(key=lambda p: p['publishedAt'], reverse=True)
+          posts = posts[:5]
+
+          cards = []
+          for p in posts:
+              img = p.get('coverImage', {}).get('url', '')
+              title = p['title']
+              url = p['url']
+              date = p['publishedAt'][:10]
+              brief = p.get('brief', '')[:120]
+
+              card = f'''<table>
+  <tr>
+    <td rowspan="2" width="120" valign="top">
+      <img src="{img}" width="120" style="border-radius:8px" alt="{title}"/>
+    </td>
+    <td valign="top">
+      <strong><a href="{url}">{title}</a></strong><br/>
+      <sub>📅 {date}</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">{brief}</td>
+  </tr>
+</table>'''
+              cards.append(card)
+
+          content = '\n'.join(cards)
+
+          with open('README.md', 'r') as f:
+              readme = f.read()
+
+          marker_start = '<!-- BLOG-POST-LIST:START -->'
+          marker_end = '<!-- BLOG-POST-LIST:END -->'
+          new_readme = re.sub(
+              f'{re.escape(marker_start)}.*?{re.escape(marker_end)}',
+              f'{marker_start}\n{content}\n{marker_end}',
+              readme,
+              flags=re.DOTALL
+          )
+
+          with open('README.md', 'w') as f:
+              f.write(new_readme)
+
+          print("README.md updated successfully")
+          PYEOF
+
+      - name: "Commit changes"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Updated with the latest blog posts"
+          git push
