@@ -3,7 +3,7 @@ name: "📚 Blog Updater"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours
+    - cron: '0 */6 * * *'
 
 jobs:
   update_blogs:
@@ -20,3 +20,6 @@ jobs:
           max_post_count: 5
           template: '<table><tr><td>🔗 <strong><a href="$url">$title</a></strong><br/><sub>📅 $date</sub><br/><p>$description</p></td></tr></table>$newline'
           comment_tag_name: "BLOG-POST-LIST"
+          user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+          accept_header: "application/rss+xml,application/xml;q=0.9,*/*;q=0.8"
+          retry_count: 3
