@@ -48,7 +48,7 @@ jobs:
               card = "".join([
                   '<table style="border-collapse:separate;border-spacing:0;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:16px;width:100%;">',
                   '<tr>',
-                  f'<td style="width:8px;padding:0;background-image:url({grad_svg});background-repeat:repeat-y;background-size:8px 600px;"></td>',
+                  f'<td style="width:8px;padding:0;background-color:#c94b9c;background-image:url({grad_svg});background-repeat:repeat-y;background-size:8px 600px;"></td>',
                   '<td style="width:120px;padding:12px;vertical-align:middle;">',
                   f'<img src="{img}" width="120" style="border-radius:8px;display:block;"/>',
                   '</td>',
