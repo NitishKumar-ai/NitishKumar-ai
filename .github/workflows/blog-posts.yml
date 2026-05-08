@@ -45,15 +45,16 @@ jobs:
                   brief = brief[:brief.rfind(' ', 0, 120)] + '...'
 
               card = "".join([
-                  '<table>',
+                  '<table style="border-collapse:separate;border-spacing:0;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:16px;width:100%;">',
                   '<tr>',
-                  '<td width="120" valign="top">',
-                  f'<img src="{img}" width="120" style="border-radius:8px"/>',
+                  '<td style="width:6px;background:linear-gradient(180deg,#ff6b9d,#c94b9c);padding:0;"></td>',
+                  '<td style="width:120px;padding:12px;vertical-align:middle;">',
+                  f'<img src="{img}" width="120" style="border-radius:8px;display:block;"/>',
                   '</td>',
-                  '<td valign="top">',
-                  f'<strong><a href="{url}">{title}</a></strong><br/>',
-                  f'<sub>📅 {date}</sub><br/>',
-                  f'{brief}',
+                  '<td style="padding:12px 16px;vertical-align:top;">',
+                  f'<strong><a href="{url}" style="color:#0366d6;text-decoration:none;">{title}</a></strong><br/>',
+                  f'<span style="color:#586069;font-size:0.85em;">📅 {date}</span><br/>',
+                  f'<span style="color:#24292e;">{brief}</span>',
                   '</td>',
                   '</tr>',
                   '</table>',
