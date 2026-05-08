@@ -37,7 +37,7 @@ jobs:
           grad_svg = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjYwMCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNmI5ZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M5NGI5YyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjYwMCIgZmlsbD0idXJsKCNnKSIvPjwvc3ZnPg=="
           cards = []
           for p in posts:
-              img = p.get('coverImage', {}).get('url', '')
+              img_url = p.get('coverImage', {}).get('url', '')
               title = p['title']
               url = p['url']
               date = p['publishedAt'][:10]
@@ -46,16 +46,14 @@ jobs:
                   brief = brief[:brief.rfind(' ', 0, 120)] + '...'
 
               card = "".join([
-                  '<table style="border-collapse:separate;border-spacing:0;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:16px;width:100%;">',
+                  '<table>',
                   '<tr>',
-                  f'<td style="width:8px;padding:0;background-color:#c94b9c;background-image:url({grad_svg});background-repeat:repeat-y;background-size:8px 600px;"></td>',
-                  '<td style="width:120px;padding:12px;vertical-align:middle;">',
-                  f'<img src="{img}" width="120" style="border-radius:8px;display:block;"/>',
-                  '</td>',
-                  '<td style="padding:12px 16px;vertical-align:top;">',
-                  f'<strong><a href="{url}" style="color:#0366d6;text-decoration:none;">{title}</a></strong><br/>',
-                  f'<span style="color:#586069;font-size:0.85em;">📅 {date}</span><br/>',
-                  f'<span style="color:#24292e;">{brief}</span>',
+                  f'<td width="8" valign="top"><img src="{grad_svg}" width="8" height="600" alt=""/></td>',
+                  f'<td width="120" valign="middle"><img src="{img_url}" width="120" alt="{title}"/></td>',
+                  f'<td valign="top">',
+                  f'<strong><a href="{url}">{title}</a></strong><br/>',
+                  f'{date}<br/>',
+                  f'{brief}',
                   '</td>',
                   '</tr>',
                   '</table>',
