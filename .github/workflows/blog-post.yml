@@ -16,7 +16,7 @@ jobs:
       - name: "📚 Fetch Hashnode Blog Posts"
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://network-nitish.hashnode.dev/rss.xml,https://hackathon-nitish.hashnode.dev/rss.xml"
+          feed_list: "https://hashnode.com/feed/network-nitish,https://hashnode.com/feed/hackathon-nitish"
           max_post_count: 5
           template: '<table><tr><td>🔗 <strong><a href="$url">$title</a></strong><br/><sub>📅 $date</sub><br/><p>$description</p></td></tr></table>$newline'
           comment_tag_name: "BLOG-POST-LIST"
