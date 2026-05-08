@@ -40,22 +40,24 @@ jobs:
               title = p['title']
               url = p['url']
               date = p['publishedAt'][:10]
-              brief = p.get('brief', '')[:120]
+              brief = p.get('brief', '').replace('\n', ' ').strip()
+              if len(brief) > 120:
+                  brief = brief[:brief.rfind(' ', 0, 120)] + '...'
 
-              card = f'''<table>
-                <tr>
-                  <td rowspan="2" width="120" valign="top">
-                    <img src="{img}" width="120" style="border-radius:8px" alt="{title}"/>
-                  </td>
-                  <td valign="top">
-                    <strong><a href="{url}">{title}</a></strong><br/>
-                    <sub>📅 {date}</sub>
-                  </td>
-                </tr>
-                <tr>
-                  <td valign="top">{brief}</td>
-                </tr>
-              </table>'''
+              card = "".join([
+                  '<table>',
+                  '<tr>',
+                  '<td width="120" valign="top">',
+                  f'<img src="{img}" width="120" style="border-radius:8px"/>',
+                  '</td>',
+                  '<td valign="top">',
+                  f'<strong><a href="{url}">{title}</a></strong><br/>',
+                  f'<sub>📅 {date}</sub><br/>',
+                  f'{brief}',
+                  '</td>',
+                  '</tr>',
+                  '</table>',
+              ])
               cards.append(card)
 
           content = '\n'.join(cards)
