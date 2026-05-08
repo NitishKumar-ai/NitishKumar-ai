@@ -34,6 +34,7 @@ jobs:
           posts.sort(key=lambda p: p['publishedAt'], reverse=True)
           posts = posts[:5]
 
+          grad_svg = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjYwMCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNmI5ZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M5NGI5YyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjYwMCIgZmlsbD0idXJsKCNnKSIvPjwvc3ZnPg=="
           cards = []
           for p in posts:
               img = p.get('coverImage', {}).get('url', '')
@@ -47,7 +48,7 @@ jobs:
               card = "".join([
                   '<table style="border-collapse:separate;border-spacing:0;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:16px;width:100%;">',
                   '<tr>',
-                  '<td style="width:6px;background:linear-gradient(180deg,#ff6b9d,#c94b9c);padding:0;"></td>',
+                  f'<td style="width:8px;padding:0;background-image:url({grad_svg});background-repeat:repeat-y;background-size:8px 600px;"></td>',
                   '<td style="width:120px;padding:12px;vertical-align:middle;">',
                   f'<img src="{img}" width="120" style="border-radius:8px;display:block;"/>',
                   '</td>',
